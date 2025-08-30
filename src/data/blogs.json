@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "excerpt": "Learn basics of React andhow to create your first component-based application.",
+    "content": "A robust JavaScript library for creating user interfaces is called React. One of the most widely used frontend frameworks, it was created by Facebook. We will examine the fundamental ideas of React, including as components, props, state, and the virtual DOM, in this extensive book. \n\nThe fundamental units of React applications are called components. They let you divide the user interface into separate, reusable parts. Props allow each component to accept data and control its own state. One of the main components of React that contributes to its speed and effectiveness is the virtual DOM. \n\nReact builds a virtual representation of the DOM in memory and updates only the modified portions of it rather than directly modifying the browser's DOM. In React apps, state management is essential. For local component state, you can use the useState hook; for global state management, you can use more sophisticated solutions like Redux. \n\nProperties, or props, are the means by which components exchange information with one another. They enable you to transfer information between parent and child components, adding dynamic and interactive elements to your program.",
+    "author": "Pawan Kalyan",
+    "date": "2025-05-15",
+    "readTime": "5 min read",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "tags": ["JavaScript", "React", "Frontend"]
+  },
+  {
+    "id": 2,
+    "title": "Mastering CSS Grid Layout",
+    "excerpt": "Learn how to create complex, responsive layouts with ease and discover the power of CSS Grid.",
+    "content": "CSS Grid Layout is a two-dimensional layout system for the web. It lets you lay content out in rows and columns, and has many features that make building complex layouts straightforward.\n\nUnlike Flexbox, which is largely a one-dimensional system, Grid Layout is optimized for two-dimensional layouts: those in which you need to align content both horizontally and vertically.\n\nGrid Layout enables you to divide a page into major regions or define the relationship in terms of size, position, and layer between parts of a control built from HTML primitives.\n\nSome key concepts include:\n- Grid Container: The element on which display: grid is applied\n- Grid Items: The children of the grid container\n- Grid Lines: The dividing lines that make up the structure of the grid\n- Grid Tracks: The space between two adjacent grid lines\n- Grid Areas: The total space surrounded by four grid lines\n\nWith CSS Grid, you can create responsive layouts without media queries in many cases, using features like auto-fit, auto-fill, and minmax().",
+    "author": "Dhanasree",
+    "date": "2024-10-10",
+    "readTime": "8 min read",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "tags": ["CSS", "Grid", "Layout", "Responsive"]
+  },
+  {
+    "id": 3,
+    "title": "JavaScript ES6+ Features You Should Know",
+    "excerpt": "Explore modern JavaScript features that will make your code clean and efficient.",
+    "content": "ES6 (ECMAScript 2015) and later versions have introduced many powerful features that have transformed how we write JavaScript. Let's explore some of the most important ones.\n\n**Arrow Functions**: A more concise way to write functions with lexical 'this' binding.\n\nTemplate Literals: Allow embedded expressions and multi-line strings using backticks.\n\nDestructuring: Extract values from arrays or properties from objects into distinct variables.\n\nSpread Operator: Allows an iterable to expand in places where 0+ arguments are expected.\n\nAsync/Await: Makes asynchronous code look and behave more like synchronous code.\n\nModules: Import and export functionality between different JavaScript files.\n\nClasses: A cleaner syntax for creating constructor functions and dealing with inheritance.\n\nLet and Const: Block-scoped variable declarations that replace var in most cases.\n\nThese features not only make JavaScript more powerful but also more readable and maintainable. Understanding and using these features is essential for modern JavaScript development.",
+    "author": "Prasad",
+    "date": "2025-01-05",
+    "readTime": "7 min read",
+    "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "tags": ["JavaScript", "ES6", "Programming"]
+  },
+  {
+    "id": 4,
+    "title": "Building Responsive Web Applications",
+    "excerpt": "Discover the finest techniques for developing web apps that function flawlessly on all platforms.",
+    "content": "Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It's become essential in today's multi-device world.\n\nMobile-First Approach: Start designing for the smallest screen first, then progressively enhance for larger screens.\n\nFlexible Grid Systems: Use relative units like percentages instead of fixed units like pixels.\n\nFlexible Images: Make images scale nicely to the parent element using CSS properties like max-width: 100%.\n\nMedia Queries: Use CSS media queries to apply different styles for different screen sizes.\n\nViewport Meta Tag: Essential for controlling layout on mobile browsers.\n\nTouch-Friendly Design: Ensure buttons and links are large enough for touch interaction.\n\nPerformance Optimization: Optimize images and minimize HTTP requests for better mobile performance.\n\nTesting Across Devices: Test your application on various devices and screen sizes.\n\nBy following these principles, you can create applications that provide an excellent user experience regardless of the device being used.",
+    "author": "Ram",
+    "date": "2024-12-21",
+    "readTime": "9 min read",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "tags": ["Responsive", "Web Design", "Mobile", "UX"]
+  },
+  {
+    "id": 5,
+    "title": "State Management in React Applications",
+    "excerpt": "Compare different state management solutions and learn when to use each approach.",
+    "content": "State management is one of the most important aspects of React application development. As your application grows, managing state becomes increasingly complex.\n\nLocal State with useState: Perfect for component-specific state that doesn't need to be shared.\n\nContext API: Great for sharing state across multiple components without prop drilling.\n\nRedux: Powerful for complex applications with predictable state updates.\n\nZustand: A lightweight alternative to Redux with a simpler API.\n\nReact Query/SWR: Excellent for server state management and caching.\n\nWhen to Use Each:\n- useState: Simple, local component state\n- Context: Sharing state across component tree\n- Redux: Complex state logic, time-travel debugging\n- Zustand: Simple global state without boilerplate\n- React Query: Server state, caching, synchronization\n\nBest Practices:\n- Keep state as local as possible\n- Lift state up when needed by multiple components\n- Use the right tool for the job\n- Consider performance implications\n- Maintain immutability\n\nChoosing the right state management solution depends on your application's complexity and requirements.",
+    "author": "Pooja",
+    "date": "2022-08-15",
+    "readTime": "8 min read",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "tags": ["React", "Redux", "Context"]
+  },
+  {
+    "id": 6,
+    "title": "Modern CSS Techniques for Better UX",
+    "excerpt": "Discover advanced CSS techniques that can enhance user experience and visual appeal.",
+    "content": "Modern CSS has evolved significantly, offering powerful features that can greatly enhance user experience and visual design.\n\nCSS Custom Properties (Variables): Create maintainable and themeable stylesheets.\n\nCSS Grid and Flexbox: Build complex layouts with ease and flexibility.\n\nCSS Animations and Transitions: Add smooth, performant animations to improve UX.\n\nCSS Transforms: Create engaging visual effects without JavaScript.\n\nCSS Filters: Apply visual effects like blur, brightness, and contrast.\n\nCSS Clipping and Masking: Create unique shapes and visual effects.\n\nContainer Queries: Style elements based on their container size, not viewport.\n\nCSS Logical Properties: Write more maintainable code for international layouts.\n\nPerformance Considerations:\n- Use transform and opacity for animations\n- Avoid animating layout properties\n- Use will-change property judiciously\n- Optimize for 60fps animations\n\nAccessibility:\n- Respect prefers-reduced-motion\n- Ensure sufficient color contrast\n- Use focus indicators\n- Test with screen readers\n\nThese techniques, when used thoughtfully, can create delightful user experiences while maintaining performance and accessibility.",
+    "author": "Ravi",
+    "date": "2024-11-30",
+    "readTime": "6 min read",
+    "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "tags": ["CSS", "UX", "Animation", "Design"]
+  }
+]
